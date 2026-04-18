@@ -1,0 +1,48 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" fill="none">
+  <defs>
+    <style>
+      .line{stroke:#2D2A26;stroke-width:10;stroke-linecap:round;stroke-linejoin:round}
+    </style>
+  </defs>
+
+  <!-- Head -->
+  <circle cx="300" cy="200" r="95" fill="#FFF7F0" class="line"/>
+
+  <!-- Hair (simple bangs) -->
+  <path d="M230 185 C250 165, 275 165, 300 175 C325 165, 350 165, 370 185" class="line"/>
+  <path d="M245 210 C255 195, 270 195, 280 210" class="line"/>
+  <path d="M320 210 C330 195, 345 195, 355 210" class="line"/>
+
+  <!-- Eyes -->
+  <circle cx="270" cy="210" r="6" fill="#2D2A26"/>
+  <circle cx="330" cy="210" r="6" fill="#2D2A26"/>
+
+  <!-- Earmuffs -->
+  <path d="M205 165 C215 115, 255 90, 300 90 C345 90, 385 115, 395 165" class="line"/>
+  <circle cx="200" cy="205" r="40" fill="#E84A4A" class="line"/>
+  <circle cx="400" cy="205" r="40" fill="#E84A4A" class="line"/>
+
+  <!-- Body / Coat -->
+  <path d="M175 330 C195 300, 230 285, 300 285 C370 285, 405 300, 425 330 L450 480 C452 520, 420 545, 380 545 H220 C180 545, 148 520, 150 480 Z" fill="#F5D27D" class="line"/>
+
+  <!-- Scarf -->
+  <path d="M215 285 C240 255, 360 255, 385 285" fill="#E84A4A" class="line"/>
+  <path d="M240 300 C255 330, 345 330, 360 300" fill="#E84A4A" class="line"/>
+  <path d="M310 300 C325 360, 345 430, 360 500" fill="#E84A4A" class="line"/>
+
+  <!-- Hands -->
+  <circle cx="265" cy="390" r="30" fill="#FFF7F0" class="line"/>
+  <circle cx="335" cy="390" r="30" fill="#FFF7F0" class="line"/>
+
+  <!-- Cup -->
+  <rect x="270" y="360" width="60" height="70" rx="10" fill="#C8843E" class="line"/>
+  <path d="M330 370 C350 370, 355 390, 335 395" class="line"/>
+
+  <!-- Buttons -->
+  <circle cx="300" cy="420" r="6" fill="#2D2A26"/>
+  <circle cx="300" cy="460" r="6" fill="#2D2A26"/>
+
+  <!-- Arms -->
+  <path d="M220 350 C245 360, 260 370, 270 380" class="line"/>
+  <path d="M380 350 C355 360, 340 370, 330 380" class="line"/>
+</svg>
