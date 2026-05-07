@@ -740,6 +740,22 @@ h1, h2, h3, h4, h5 {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
 
+  .header .nav-links a {
+    color: var(--primary);
+  }
+
+  .header .nav-links a:hover {
+    color: var(--secondary);
+  }
+
+  .header .nav-links .btn-primary-outline {
+    color: var(--secondary);
+  }
+
+  .header .nav-links .btn-primary-outline:hover {
+    color: #FFFFFF;
+  }
+
   .hero-cta { flex-direction: column; padding: 0 20px; }
   .example-grid { grid-template-columns: 1fr; }
   .area-box { padding: 24px; }
