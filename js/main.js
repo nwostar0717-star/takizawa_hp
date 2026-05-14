@@ -5,7 +5,10 @@
 document.addEventListener('DOMContentLoaded', () => {
     
     // Set current year in footer
-    document.getElementById('year').textContent = new Date().getFullYear();
+    const year = document.getElementById('year');
+    if (year) {
+        year.textContent = new Date().getFullYear();
+    }
 
     // Sticky header shadow
     const header = document.getElementById('header');
@@ -87,19 +90,19 @@ document.addEventListener('DOMContentLoaded', () => {
     const faqData = [
         {
             q: "どんな作業をお願いできますか？",
-            a: "電球交換、水漏れ修理、家具の組み立てから、不動産や住宅ローンのご相談まで幅広く対応しています！ページ上の「頼めることを見る」もご参照ください。"
+            a: "電気、水まわり、家具の組み立て、住まいの確認、不動産や家計の初歩相談まで対応しています。ページ上の「できること」もご参照ください。"
         },
         {
             q: "料金の目安を教えてください",
-            a: "基本的には「コーヒー1杯分程度の気持ち代」から承っております。材料費が必要な場合のみ、実費をご負担いただいております。"
+            a: "小さなお手伝いは、お気持ち代からご相談ください。材料費や部品代が必要な場合は、事前にお伝えします。"
         },
         {
             q: "対応エリアはどこまでですか？",
-            a: "ご近所（自転車や車ですぐ伺える範囲）を想定しております。詳細なご住所をお伺いしてご相談乗らせていただきます！"
+            a: "市川市・行徳・妙典を中心に、火曜・水曜に伺える範囲で対応します。周辺地域も内容によってご相談ください。"
         },
         {
             q: "依頼方法を教えてください",
-            a: "お電話（090-4827-8442）または、ページ下部のLINEのQRコードからお気軽にご連絡ください。"
+            a: "お電話（090-4827-8442）または、ページ下部のLINEボタン・QRコードからお気軽にご連絡ください。"
         }
     ];
 
