@@ -499,6 +499,50 @@ textarea {
   margin: 6px 0 0;
 }
 
+.seo-links {
+  background: rgba(255, 255, 255, 0.48);
+}
+
+.local-link-grid,
+.local-page-grid,
+.local-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.local-link-card,
+.local-info-card {
+  display: block;
+  padding: 20px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: var(--shadow-soft);
+}
+
+.local-link-card span,
+.local-info-card span {
+  display: inline-flex;
+  margin-bottom: 8px;
+  color: var(--orange-dark);
+  font-size: 0.84rem;
+  font-weight: 900;
+}
+
+.local-link-card strong,
+.local-info-card strong {
+  display: block;
+  color: var(--navy);
+  font-size: 1.12rem;
+  line-height: 1.45;
+}
+
+.local-link-card:hover {
+  transform: translateY(-2px);
+  transition: transform 0.2s ease;
+}
+
 .section-cta {
   margin-top: 22px;
 }
@@ -766,6 +810,59 @@ textarea {
   background: #fff;
 }
 
+.local-page .hero {
+  padding-bottom: 44px;
+}
+
+.local-page .hero h1 {
+  max-width: 840px;
+}
+
+.local-page-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.local-page-nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 38px;
+  padding: 0 14px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: rgba(255,255,255,0.86);
+  color: var(--navy);
+  font-weight: 900;
+  font-size: 0.9rem;
+}
+
+.local-info-card {
+  min-height: 100%;
+}
+
+.local-info-card p {
+  margin: 8px 0 0;
+  color: var(--muted);
+}
+
+.local-mini-list {
+  display: grid;
+  gap: 10px;
+  margin: 14px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.local-mini-list li {
+  padding: 10px 12px;
+  border-radius: var(--radius);
+  background: var(--paper-strong);
+  color: var(--navy);
+  font-weight: 800;
+}
+
 .phone-link,
 .line-link {
   display: flex;
@@ -1000,7 +1097,10 @@ textarea {
   }
 
   .trust-strip-grid,
-  .faq-list {
+  .faq-list,
+  .local-link-grid,
+  .local-page-grid,
+  .local-card-grid {
     grid-template-columns: 1fr;
   }
 
