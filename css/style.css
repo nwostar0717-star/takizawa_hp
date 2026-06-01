@@ -847,6 +847,111 @@ textarea {
   color: var(--muted);
 }
 
+.article-hero {
+  padding: clamp(42px, 7vw, 82px) 0 46px;
+}
+
+.article-hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(300px, 0.78fr);
+  gap: clamp(28px, 5vw, 58px);
+  align-items: center;
+}
+
+.article-page .hero-panel img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: var(--radius);
+}
+
+.article-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 0.35fr);
+  gap: 28px;
+  align-items: start;
+}
+
+.article-body {
+  padding: clamp(22px, 4vw, 34px);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: var(--shadow-soft);
+}
+
+.article-body p {
+  margin: 0 0 18px;
+  color: #40505e;
+  font-size: 1.02rem;
+}
+
+.article-body h2 {
+  margin: 34px 0 14px;
+  color: var(--navy);
+  font-size: clamp(1.42rem, 3vw, 2rem);
+  line-height: 1.35;
+}
+
+.article-body h3,
+.article-side-card h2 {
+  margin: 0 0 12px;
+  color: var(--navy);
+  line-height: 1.35;
+}
+
+.article-check-card,
+.article-side-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: linear-gradient(135deg, #fff, var(--green-soft));
+  box-shadow: var(--shadow-soft);
+}
+
+.article-check-card {
+  margin: 24px 0;
+  padding: 20px;
+}
+
+.article-cta {
+  margin: 28px 0;
+}
+
+.reference-list {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding-left: 1.2em;
+}
+
+.reference-list a {
+  color: var(--navy);
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.article-sidebar {
+  position: sticky;
+  top: calc(var(--header-height) + 18px);
+  display: grid;
+  gap: 16px;
+}
+
+.article-side-card {
+  padding: 18px;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.article-side-card p {
+  color: var(--muted);
+}
+
+.article-side-card .btn {
+  width: 100%;
+  margin-top: 10px;
+}
+
 .local-mini-list {
   display: grid;
   gap: 10px;
@@ -1088,6 +1193,8 @@ textarea {
   }
 
   .hero-grid,
+  .article-hero-grid,
+  .article-layout,
   .assurance-grid,
   .area-card,
   .contact-grid,
@@ -1106,6 +1213,10 @@ textarea {
 
   .promise-list {
     grid-template-columns: 1fr;
+  }
+
+  .article-sidebar {
+    position: static;
   }
 }
 
