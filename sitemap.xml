@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://nwostar0717-star.github.io/takizawa_hp/</loc>
-    <lastmod>2026-05-24</lastmod>
+    <lastmod>2026-06-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -32,13 +32,31 @@
   </url>
   <url>
     <loc>https://nwostar0717-star.github.io/takizawa_hp/realestate-consultation/</loc>
-    <lastmod>2026-05-24</lastmod>
+    <lastmod>2026-06-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nwostar0717-star.github.io/takizawa_hp/ichikawa-kanri-gaisha-soudan/</loc>
-    <lastmod>2026-05-31</lastmod>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nwostar0717-star.github.io/takizawa_hp/chintai-setsubi-trouble-check/</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nwostar0717-star.github.io/takizawa_hp/chintai-kanri-taio-osoi-owner-check/</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nwostar0717-star.github.io/takizawa_hp/genjo-kaifuku-mitsumori-owner-check/</loc>
+    <lastmod>2026-06-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -47,5 +65,11 @@
     <lastmod>2026-05-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nwostar0717-star.github.io/takizawa_hp/qr/</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
