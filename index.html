@@ -97,6 +97,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&family=Noto+Sans+JP:wght@400;500;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/works.css">
 </head>
 <body>
     <header class="header" id="header">
@@ -134,7 +135,7 @@
                         <span>妙典</span>
                         <span>近所の便利屋</span>
                     </div>
-                    <h1>行徳・妙典で、業者を呼ぶ前の“ちょっと見てほしい”に応えます</h1>
+                    <h1>電球ひとつから、近所の滝沢に。</h1>
                     <p class="lead">電球・スイッチ・蛇口・家具・住まいの小さな不安から、賃貸管理や原状回復の判断材料まで、近所の有資格者が整理します。写真を送るだけのLINE相談は0円です。</p>
                     <div class="hero-actions cta-row">
                         <a class="btn btn-line" href="https://line.me/ti/p/v-V_jvMDoQ" target="_blank" rel="noopener noreferrer">写真を送ってLINEで相談する</a>
@@ -184,6 +185,15 @@
             </div>
         </section>
 
+        <section class="section" aria-labelledby="consultation-paths">
+            <div class="container">
+                <div class="section-heading"><p class="section-kicker">ご相談の入口</p><h2 id="consultation-paths">どんなことでお困りですか？</h2></div>
+                <div class="local-link-grid">
+                    <a class="local-link-card" href="#scope"><span>電球交換・水漏れ確認・家具組立など</span><strong>暮らしのお困りごと</strong></a>
+                    <a class="local-link-card" href="#owner-realestate-articles"><span>賃貸管理・原状回復の見積もりなど</span><strong>賃貸オーナーのご相談</strong></a>
+                </div>
+            </div>
+        </section>
         <section class="section seo-links" aria-label="目的別の相談ページ">
             <div class="container">
                 <div class="section-heading fade-in-up">
@@ -331,12 +341,22 @@
             </div>
         </section>
 
+        <section class="section" aria-labelledby="featured-work-title">
+            <div class="container">
+                <div class="section-heading"><p class="section-kicker">実際の工事実績</p><h2 id="featured-work-title">仕入れから交換まで、滝沢が対応しました。</h2></div>
+                <article class="work-feature">
+                    <img src="./images/works/bath-faucet/after.jpg" width="2364" height="1774" loading="lazy" alt="実際の工事実績：滝沢が交換した浴室の新しい混合水栓">
+                    <div><p class="section-kicker">浴室 / 水まわり</p><h3>浴室水栓工事</h3><p>水栓の仕入れから交換まで、滝沢本人が担当。施工前・施工中・施工後の写真で、作業の流れをご紹介します。</p><p>お客様が手配した水栓の交換もご相談いただけます。</p><a class="btn btn-secondary" href="./works/#bath-faucet">3枚の写真で工事実績を見る</a></div>
+                </article>
+            </div>
+        </section>
         <section class="section cases" id="cases">
             <div class="container">
                 <div class="section-heading fade-in-up">
                     <p class="section-kicker">作業事例</p>
                     <h2>よくある相談の目安です。</h2>
                     <p>写真は事例イメージです。実際の作業は状態を確認してから、対応可否と金額をお伝えします。</p>
+                    <p><a class="btn btn-secondary" href="./works/">工事・作業実績を見る</a></p>
                 </div>
                 <div class="case-grid">
                     <article class="case-card fade-in-up">
@@ -480,6 +500,14 @@
                     <p class="section-kicker">お問い合わせ</p>
                     <h2>写真を送るだけで、最初の相談ができます。</h2>
                     <p>「蛇口から少し水が出る」「スイッチが不安」「原状回復見積もりを見てほしい」など、短い文章で大丈夫です。お名前、ご相談内容、お住まいの地域を送ってください。</p>
+                    <label for="consultation-message">最初の相談文にお使いください（編集できます）</label>
+                    <textarea class="consult-template" id="consultation-message">こんにちは。住まいの相談をしたいです。
+地域：
+困っていること：
+希望する日程：
+対応できるかと、料金の目安を教えてください。</textarea>
+                    <button class="btn btn-secondary" id="copy-consultation" type="button">相談文をコピーする</button>
+                    <p class="copy-status" id="copy-status" role="status" aria-live="polite"></p>
                 </div>
                 <div class="contact-card fade-in-right">
                     <a class="line-link" href="https://line.me/ti/p/v-V_jvMDoQ" target="_blank" rel="noopener noreferrer">写真を送ってLINEで相談する</a>
@@ -518,5 +546,6 @@
     </div>
 
     <script src="./js/main.js"></script>
+    <script src="./js/consult-copy.js"></script>
 </body>
 </html>

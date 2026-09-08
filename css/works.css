@@ -1,0 +1,28 @@
+.works-intro { padding-top: calc(var(--header-height, 80px) + 48px); }
+.works-intro h1 { font-size: clamp(2rem, 5vw, 3.5rem); line-height: 1.45; margin-bottom: 24px; }
+.works-empty { padding: clamp(24px, 5vw, 48px); border: 1px solid #d8d8d8; border-left: 5px solid var(--orange, #c85b17); border-radius: 12px; background: #fff; }
+.works-empty h3 { margin: 12px 0; font-size: 1.35rem; }
+.works-status { font-size: 0.9rem; font-weight: 700; color: #68513d; }
+.consult-template { width: 100%; min-height: 120px; margin: 16px 0; padding: 16px; border: 1px solid #767676; border-radius: 8px; font: inherit; color: #242424; background: #fff; resize: vertical; }
+.copy-status { min-height: 1.8em; margin-top: 8px; }
+.work-entry { padding: clamp(20px, 3vw, 36px); background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); }
+.work-heading { max-width: 760px; margin-bottom: 28px; }
+.work-heading h3 { font-size: clamp(1.5rem, 3vw, 2rem); margin-bottom: 16px; }
+.work-facts { display: flex; flex-wrap: wrap; gap: 16px 40px; margin: 0 0 28px; padding: 20px; background: var(--paper); }
+.work-facts dt { font-size: 0.9rem; color: var(--ink); margin-bottom: 6px; }
+.work-facts dd { margin: 0; font-weight: 700; }
+.work-action h4 { font-size: 1.2rem; margin-bottom: 12px; }
+.work-gallery { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.work-gallery figure { margin: 0; min-width: 0; }
+.work-gallery a { display: block; border-radius: 8px; overflow: hidden; }
+.work-gallery a:focus-visible { outline: 3px solid var(--navy); outline-offset: 4px; }
+.work-gallery img { display: block; width: 100%; height: auto; }
+.work-gallery figcaption { padding: 16px 0; }
+.work-gallery figcaption span { display: block; font-size: 0.9rem; color: var(--orange-dark); font-weight: 700; margin-bottom: 8px; }
+.work-gallery figcaption strong { display: block; font-size: 1.15rem; margin-bottom: 8px; }
+.work-action { margin-top: 28px; padding-top: 24px; border-top: 1px solid var(--border); }
+.work-action p { margin-bottom: 16px; }
+.work-feature { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 28px; align-items: center; margin-bottom: 32px; padding: 24px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); }
+.work-feature img { width: 100%; height: auto; border-radius: 8px; }
+.work-feature h3, .work-feature p { margin-bottom: 16px; }
+@media (max-width: 760px) { .work-gallery, .work-feature { grid-template-columns: 1fr; } }
