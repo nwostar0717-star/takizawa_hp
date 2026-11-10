@@ -34,6 +34,7 @@
           "url": "https://nwostar0717-star.github.io/takizawa_hp/",
           "image": "https://nwostar0717-star.github.io/takizawa_hp/images/avatar.png",
           "telephone": "+81-90-4827-8442",
+          "sameAs": ["https://x.com/nwostar191756", "https://note.com/mute_daphne5659"],
           "priceRange": "0円〜5,000円程度から相談",
           "description": "市川市の行徳・妙典周辺で、電球交換、水漏れ相談、家具組立、住まいの困りごと、賃貸管理や原状回復の初歩相談を近所の有資格者に相談できる地域密着サービスです。",
           "areaServed": [
@@ -96,6 +97,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&family=Noto+Sans+JP:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@700;900&amp;display=swap">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/works.css">
 </head>
@@ -108,11 +110,11 @@
             </a>
             <nav class="nav" aria-label="メインメニュー">
                 <ul class="nav-links">
+                    <li><a href="#needs">相談の入口</a></li>
                     <li><a href="#pricing">料金</a></li>
-                    <li><a href="#scope">できること</a></li>
-                    <li><a href="#owner-realestate-articles">オーナー向け</a></li>
-                    <li><a href="#cases">事例</a></li>
-                    <li><a href="#flow">流れ</a></li>
+                    <li><a href="#qualifications">資格</a></li>
+                    <li><a href="./works/">工事実績</a></li>
+                    <li><a href="./articles/">相談メモ</a></li>
                     <li><a href="#faq">FAQ</a></li>
                     <li><a class="nav-cta" href="https://line.me/ti/p/Q3Eu_nWxu_" target="_blank" rel="noopener noreferrer">LINE相談</a></li>
                 </ul>
@@ -126,94 +128,152 @@
     </header>
 
     <main id="home">
-        <section class="hero">
-            <div class="container hero-grid">
-                <div class="hero-copy fade-in-up">
-                    <div class="eyebrow" aria-label="対応エリア">
-                        <span>市川市</span>
-                        <span>行徳</span>
-                        <span>妙典</span>
-                        <span>近所の便利屋</span>
+        <section class="b-hero" aria-labelledby="hero-heading">
+            <div class="container b-hero-grid">
+                <div class="b-hero-copy">
+                    <p class="b-hero-tag">市川市 行徳・妙典の御用聞き</p>
+                    <h1 id="hero-heading">「これ頼んでいい？」<br>から、ご近所の滝沢に<br>相談できます。</h1>
+                    <p class="b-hero-lead">電球ひとつ、蛇口のポタポタ、家具の組立。業者に頼むほどか迷う小さなことも、写真を送るだけで相談できます。賃貸管理や原状回復の判断材料の整理もお手伝いします。</p>
+                    <div class="b-hero-actions">
+                        <a class="btn btn-line b-btn-lg" href="https://line.me/ti/p/Q3Eu_nWxu_" target="_blank" rel="noopener noreferrer">写真を送ってLINEで相談（0円）</a>
+                        <a class="btn btn-phone b-btn-lg" href="tel:09048278442">電話で相談する 090-4827-8442</a>
                     </div>
-                    <h1>電球ひとつから、近所の滝沢に。</h1>
-                    <p class="lead">電球・スイッチ・蛇口・家具・住まいの小さな不安から、賃貸管理や原状回復の判断材料まで、近所の有資格者が整理します。写真を送るだけのLINE相談は0円です。</p>
-                    <div class="hero-actions cta-row">
-                        <a class="btn btn-line" href="https://line.me/ti/p/Q3Eu_nWxu_" target="_blank" rel="noopener noreferrer">写真を送ってLINEで相談する</a>
-                        <a class="btn btn-phone" href="tel:09048278442">電話で相談する（スマホ向け）</a>
-                        <a class="btn btn-secondary" href="#owner-realestate-articles">オーナー向け記事を見る</a>
-                    </div>
-                    <ul class="promise-list" aria-label="安心の約束">
-                        <li>作業前に金額を確認します</li>
-                        <li>勝手な追加作業はしません</li>
-                        <li>対応できない内容は正直に伝えます</li>
-                    </ul>
                 </div>
-
-                <aside class="hero-panel fade-in-right" aria-label="滝沢の御用聞きの紹介">
-                    <div class="profile-card">
-                        <img src="./images/avatar.png" alt="滝沢のプロフィール画像">
-                        <div>
-                            <p class="profile-label">私が対応します</p>
-                            <h2>滝沢です</h2>
-                            <p>家に上がる仕事だからこそ、身元・料金・対応範囲をはっきりお伝えします。</p>
-                        </div>
+                <aside class="b-hero-profile" aria-label="対応する人の紹介">
+                    <img src="./images/avatar.png" width="160" height="160" alt="滝沢のプロフィール画像">
+                    <div>
+                        <p class="b-profile-label">私が伺います</p>
+                        <p class="b-profile-name">滝沢です</p>
+                        <p class="b-profile-text">第二種電気工事士・宅地建物取引士など5つの資格を持っています。家に上がる仕事だからこそ、身元・料金・対応範囲をはっきりお伝えします。</p>
+                        <a class="b-text-link" href="#qualifications">保有資格を見る</a>
                     </div>
-                    <dl class="quick-price">
-                        <div>
-                            <dt>LINE写真相談</dt>
-                            <dd>0円</dd>
-                        </div>
-                        <div>
-                            <dt>近所の現地確認</dt>
-                            <dd>2,000円〜3,000円</dd>
-                        </div>
-                        <div>
-                            <dt>30分以内の小作業</dt>
-                            <dd>3,000円〜</dd>
-                        </div>
-                    </dl>
-                    <p class="small-note">対応日は火曜・水曜中心。行徳駅・妙典駅周辺からご相談ください。</p>
+                    <p class="b-hero-note">訪問は火曜・水曜が中心です。行徳駅・妙典駅周辺からご相談ください。</p>
                 </aside>
             </div>
         </section>
 
-        <section class="trust-strip" aria-label="問い合わせ前の安心材料">
-            <div class="container trust-strip-grid">
-                <div><strong>有資格者が確認</strong><span>電気・水道・不動産・賃貸の入口相談</span></div>
-                <div><strong>料金を先に案内</strong><span>概算と作業前確認を徹底</span></div>
-                <div><strong>無理な営業なし</strong><span>賃貸管理・原状回復も入口から整理</span></div>
+        <section class="b-promise" aria-labelledby="promise-heading">
+            <div class="container">
+                <div class="b-promise-card">
+                    <h2 id="promise-heading">滝沢が大事にしている3つの約束</h2>
+                    <ol class="b-promise-list">
+                        <li><span class="b-num" aria-hidden="true">1</span><p><strong>作業前に金額を確認</strong>してから始めます</p></li>
+                        <li><span class="b-num" aria-hidden="true">2</span><p><strong>勝手な追加作業</strong>はしません</p></li>
+                        <li><span class="b-num" aria-hidden="true">3</span><p><strong>できないことは正直に</strong>伝え、専門業者をご案内します</p></li>
+                    </ol>
+                </div>
             </div>
         </section>
 
-        <section class="section" aria-labelledby="consultation-paths">
+        <section class="section b-needs" id="needs" aria-labelledby="needs-heading">
             <div class="container">
-                <div class="section-heading"><p class="section-kicker">ご相談の入口</p><h2 id="consultation-paths">どんなことでお困りですか？</h2></div>
-                <div class="local-link-grid">
-                    <a class="local-link-card" href="#scope"><span>電球交換・水漏れ確認・家具組立など</span><strong>暮らしのお困りごと</strong></a>
-                    <a class="local-link-card" href="#owner-realestate-articles"><span>賃貸管理・原状回復の見積もりなど</span><strong>賃貸オーナーのご相談</strong></a>
+                <div class="section-heading"><p class="section-kicker">ご相談の入口</p><h2 id="needs-heading">どれに近いですか？</h2></div>
+                <div class="b-needs-groups">
+                    <div class="b-needs-group">
+                        <h3>暮らしのお困りごと</h3>
+                        <ul class="b-need-list">
+                            <li><a class="b-need" href="./gyotoku-light/"><span>電球・照明・スイッチ</span><small>行徳・妙典</small></a></li>
+                            <li><a class="b-need" href="./myoden-water/"><span>蛇口・水漏れ・排水</span><small>妙典・行徳</small></a></li>
+                            <li><a class="b-need" href="./ichikawa-kagu/"><span>家具の組立・軽い移動</span><small>市川市・行徳</small></a></li>
+                            <li><a class="b-need" href="./gyotoku-benriya/"><span>何を頼めるか分からない</span><small>近所の便利屋相談</small></a></li>
+                            <li><a class="b-need" href="./chintai-setsubi-trouble-check/"><span>賃貸の設備トラブル</span><small>入居者の方の初動整理</small></a></li>
+                        </ul>
+                    </div>
+                    <div class="b-needs-group">
+                        <h3>賃貸オーナー・不動産の相談</h3>
+                        <ul class="b-need-list">
+                            <li><a class="b-need" href="./genjo-kaifuku-mitsumori-owner-check/"><span>原状回復の見積もりを承認する前に</span><small>オーナー向け</small></a></li>
+                            <li><a class="b-need" href="./chintai-kanri-taio-osoi-owner-check/"><span>管理会社の対応が遅い</span><small>オーナー向け</small></a></li>
+                            <li><a class="b-need" href="./nyukyosha-keibi-shuzen-gyosha-sentei/"><span>入居者様向け修繕の業者選び</span><small>軽微修繕</small></a></li>
+                            <li><a class="b-need" href="./ichikawa-kanri-gaisha-soudan/"><span>管理会社に連絡しても動かない</span><small>入居者・オーナー</small></a></li>
+                            <li><a class="b-need" href="./realestate-consultation/"><span>不動産・賃貸の初歩相談</span><small>退去前・購入前</small></a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="section seo-links" aria-label="目的別の相談ページ">
+
+        <section class="section pricing" id="pricing">
             <div class="container">
                 <div class="section-heading fade-in-up">
-                    <p class="section-kicker">目的別に相談する</p>
-                    <h2>お困りごとに近いページから、料金と対応範囲を確認できます。</h2>
-                    <p>行徳・妙典・市川市周辺で検索されやすい相談内容ごとに、できること・できないこと・料金目安と関連記事を整理しました。</p>
+                    <p class="section-kicker">料金目安</p>
+                    <h2>「いくらかかるかわからない」を減らします。</h2>
+                    <p>まずはLINEで写真を送ってください。内容を確認して、対応可否と概算料金をお伝えします。作業前に金額を確認し、勝手な追加作業はしません。</p>
                 </div>
-                <div class="local-link-grid">
-                    <a class="local-link-card fade-in-up" href="./gyotoku-light/"><span>行徳・妙典</span><strong>電球交換・照明まわり</strong></a>
-                    <a class="local-link-card fade-in-up" href="./myoden-water/"><span>妙典・行徳</span><strong>水漏れ・蛇口相談</strong></a>
-                    <a class="local-link-card fade-in-up" href="./chintai-setsubi-trouble-check/"><span>賃貸設備</span><strong>設備トラブルの初動整理</strong></a>
-                    <a class="local-link-card fade-in-up" href="./ichikawa-kagu/"><span>市川市・行徳</span><strong>家具組立</strong></a>
-                    <a class="local-link-card fade-in-up" href="./gyotoku-benriya/"><span>行徳</span><strong>近所の便利屋相談</strong></a>
-                    <a class="local-link-card fade-in-up" href="./realestate-consultation/"><span>市川市・行徳</span><strong>不動産・賃貸の初歩相談</strong></a>
-                    <a class="local-link-card fade-in-up" href="./ichikawa-kanri-gaisha-soudan/"><span>記事</span><strong>管理会社に連絡しても動かない時</strong></a>
-                    <a class="local-link-card fade-in-up" href="./chintai-kanri-taio-osoi-owner-check/"><span>オーナー向け</span><strong>賃貸管理会社の対応が遅い時</strong></a>
-                    <a class="local-link-card fade-in-up" href="./nyukyosha-keibi-shuzen-gyosha-sentei/"><span>軽微修繕</span><strong>入居者様向け修繕の業者選定</strong></a>
-                    <a class="local-link-card fade-in-up" href="./genjo-kaifuku-mitsumori-owner-check/"><span>原状回復</span><strong>見積もり承認前の確認</strong></a>
-                    <a class="local-link-card fade-in-up" href="./price/"><span>料金</span><strong>料金目安を見る</strong></a>
+                <div class="price-table fade-in-up" role="table" aria-label="料金目安">
+                    <div class="price-row price-head" role="row">
+                        <span role="columnheader">内容</span>
+                        <span role="columnheader">目安料金</span>
+                    </div>
+                    <div class="price-row" role="row"><span>LINE写真相談</span><strong>0円</strong></div>
+                    <div class="price-row" role="row"><span>近所の現地確認</span><strong>2,000円〜3,000円</strong></div>
+                    <div class="price-row" role="row"><span>30分以内の小作業</span><strong>3,000円〜</strong></div>
+                    <div class="price-row" role="row"><span>1時間以内の作業</span><strong>5,000円〜</strong></div>
+                    <div class="price-row" role="row"><span>部品代</span><strong>実費</strong></div>
+                    <div class="price-row" role="row"><span>不動産・賃貸の初歩相談</span><strong>30分 3,000円〜</strong></div>
                 </div>
+                <div class="notice-card fade-in-up">
+                    <strong>料金で不安にさせないために</strong>
+                    <p>「お気持ち代」で曖昧にせず、最低目安を先にお伝えします。現地で状況が変わる場合も、追加作業の前に必ず確認します。</p>
+                </div>
+                <div class="section-cta cta-row fade-in-up">
+                    <a class="btn btn-line" href="https://line.me/ti/p/Q3Eu_nWxu_" target="_blank" rel="noopener noreferrer">写真を送ってLINEで相談する</a>
+                    <a class="btn btn-phone" href="tel:09048278442">電話で相談する（スマホ向け）</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section assurance" id="qualifications">
+            <div class="container assurance-grid">
+                <div class="assurance-copy fade-in-left">
+                    <p class="section-kicker">安心材料</p>
+                    <h2>家に上がる仕事だから、身元と責任範囲を明確にします。</h2>
+                    <p>優しく話しやすいだけでなく、対応できること・できないことをはっきり伝えます。無理な営業や勝手な追加作業はしません。</p>
+                    <ul class="assurance-points">
+                        <li>地域密着で、市川市・行徳・妙典周辺を中心に対応</li>
+                        <li>対応できない作業は正直に伝える</li>
+                        <li>必要な場合は専門業者への相談を案内</li>
+                    </ul>
+                </div>
+                <div class="qualification-panel fade-in-right">
+                    <h3>保有資格</h3>
+                    <div class="qualification-list">
+                        <span>第二種電気工事士</span>
+                        <span>宅地建物取引士</span>
+                        <span>2級ファイナンシャル・プランニング技能士</span>
+                        <span>給水装置工事主任技術者</span>
+                        <span>第二種管工事施工管理技士</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" aria-labelledby="featured-work-title">
+            <div class="container">
+                <div class="section-heading"><p class="section-kicker">実際の工事実績</p><h2 id="featured-work-title">仕入れから交換まで、滝沢が対応しました。</h2></div>
+                <article class="work-feature">
+                    <img src="./images/works/bath-faucet/after.jpg" width="2364" height="1774" loading="lazy" alt="実際の工事実績：滝沢が交換した浴室の新しい混合水栓">
+                    <div><p class="section-kicker">浴室 / 水まわり</p><h3>浴室水栓工事</h3><p>水栓の仕入れから交換まで、滝沢本人が担当。施工前・施工中・施工後の写真で、作業の流れをご紹介します。</p><p>お客様が手配した水栓の交換もご相談いただけます。</p><a class="btn btn-secondary" href="./works/#bath-faucet">3枚の写真で工事実績を見る</a></div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" aria-labelledby="daily-articles-heading">
+            <div class="container">
+                <div class="section-heading"><p class="section-kicker">住まいの相談メモ</p><h2 id="daily-articles-heading">頼む前に知っておきたいこと</h2></div>
+                <article class="notice-card"><p><time datetime="2026-11-10">2026年11月10日</time> / 譲り受けた家具</p><h2><a href="./articles/2026-11-10-secondhand-furniture-notes/">譲ってもらった家具を組み立てたいとき。今ある物と分からないことの相談メモ</a></h2><p>譲り受けた棚や机の組立を相談する前に、現在の状態、説明書や部品の有無、前の持ち主に確認できたことを整理。完成写真と手元の状態を分けて伝えます。</p><a class="btn btn-secondary" href="./articles/2026-11-10-secondhand-furniture-notes/">記事を読む</a></article>
+                <p><a class="btn btn-secondary" href="./articles/">相談メモの一覧を見る</a></p>
+            </div>
+        </section>
+
+        <section class="section b-social" id="sns" aria-labelledby="sns-heading">
+            <div class="container">
+                <div class="section-heading"><p class="section-kicker">発信しています</p><h2 id="sns-heading">滝沢の毎日を発信しています</h2><p>どんな人が伺うのか、先に知ってから相談してください。</p></div>
+                <ul class="b-social-list">
+                    <li><a class="b-social-link" href="https://x.com/nwostar191756" target="_blank" rel="noopener noreferrer"><span class="b-social-icon b-icon-x" aria-hidden="true">X</span><span><strong>X @nwostar191756</strong><small>作業のようす・ひとことヒント</small></span></a></li>
+                    <li><a class="b-social-link" href="https://note.com/mute_daphne5659" target="_blank" rel="noopener noreferrer"><span class="b-social-icon b-icon-note" aria-hidden="true">note</span><span><strong>note</strong><small>住まいと賃貸のじっくり読みもの</small></span></a></li>
+                    <li><a class="b-social-link" href="./articles/"><span class="b-social-icon b-icon-memo" aria-hidden="true">メモ</span><span><strong>住まいの相談メモ</strong><small>頼む前に知っておきたいこと（毎日更新）</small></span></a></li>
+                </ul>
             </div>
         </section>
 
@@ -275,33 +335,19 @@
             </div>
         </section>
 
-        <section class="section pricing" id="pricing">
+        <section class="section flow" id="flow">
             <div class="container">
                 <div class="section-heading fade-in-up">
-                    <p class="section-kicker">料金目安</p>
-                    <h2>「いくらかかるかわからない」を減らします。</h2>
-                    <p>まずはLINEで写真を送ってください。内容を確認して、対応可否と概算料金をお伝えします。作業前に金額を確認し、勝手な追加作業はしません。</p>
+                    <p class="section-kicker">相談から作業まで</p>
+                    <h2>最初の一言を送りやすい流れにしています。</h2>
                 </div>
-                <div class="price-table fade-in-up" role="table" aria-label="料金目安">
-                    <div class="price-row price-head" role="row">
-                        <span role="columnheader">内容</span>
-                        <span role="columnheader">目安料金</span>
-                    </div>
-                    <div class="price-row" role="row"><span>LINE写真相談</span><strong>0円</strong></div>
-                    <div class="price-row" role="row"><span>近所の現地確認</span><strong>2,000円〜3,000円</strong></div>
-                    <div class="price-row" role="row"><span>30分以内の小作業</span><strong>3,000円〜</strong></div>
-                    <div class="price-row" role="row"><span>1時間以内の作業</span><strong>5,000円〜</strong></div>
-                    <div class="price-row" role="row"><span>部品代</span><strong>実費</strong></div>
-                    <div class="price-row" role="row"><span>不動産・賃貸の初歩相談</span><strong>30分 3,000円〜</strong></div>
-                </div>
-                <div class="notice-card fade-in-up">
-                    <strong>料金で不安にさせないために</strong>
-                    <p>「お気持ち代」で曖昧にせず、最低目安を先にお伝えします。現地で状況が変わる場合も、追加作業の前に必ず確認します。</p>
-                </div>
-                <div class="section-cta cta-row fade-in-up">
-                    <a class="btn btn-line" href="https://line.me/ti/p/Q3Eu_nWxu_" target="_blank" rel="noopener noreferrer">写真を送ってLINEで相談する</a>
-                    <a class="btn btn-phone" href="tel:09048278442">電話で相談する（スマホ向け）</a>
-                </div>
+                <ol class="flow-list">
+                    <li class="fade-in-up"><span>1</span><strong>LINEまたは電話で相談</strong><p>「これ頼んでいい？」だけでも大丈夫です。</p></li>
+                    <li class="fade-in-up"><span>2</span><strong>写真や状況を確認</strong><p>スマホ写真、困っている場所、賃貸か持ち家かを確認します。</p></li>
+                    <li class="fade-in-up"><span>3</span><strong>概算料金と対応可否を案内</strong><p>対応できない内容は、無理に受けず正直に伝えます。</p></li>
+                    <li class="fade-in-up"><span>4</span><strong>日程調整</strong><p>火曜・水曜を中心に、伺える範囲で調整します。</p></li>
+                    <li class="fade-in-up"><span>5</span><strong>作業前に金額確認してから対応</strong><p>勝手な追加作業はしません。</p></li>
+                </ol>
             </div>
         </section>
 
@@ -341,116 +387,6 @@
             </div>
         </section>
 
-        <section class="section" aria-labelledby="featured-work-title">
-            <div class="container">
-                <div class="section-heading"><p class="section-kicker">実際の工事実績</p><h2 id="featured-work-title">仕入れから交換まで、滝沢が対応しました。</h2></div>
-                <article class="work-feature">
-                    <img src="./images/works/bath-faucet/after.jpg" width="2364" height="1774" loading="lazy" alt="実際の工事実績：滝沢が交換した浴室の新しい混合水栓">
-                    <div><p class="section-kicker">浴室 / 水まわり</p><h3>浴室水栓工事</h3><p>水栓の仕入れから交換まで、滝沢本人が担当。施工前・施工中・施工後の写真で、作業の流れをご紹介します。</p><p>お客様が手配した水栓の交換もご相談いただけます。</p><a class="btn btn-secondary" href="./works/#bath-faucet">3枚の写真で工事実績を見る</a></div>
-                </article>
-            </div>
-        </section>
-        <section class="section" aria-labelledby="daily-articles-heading">
-            <div class="container">
-                <div class="section-heading"><p class="section-kicker">住まいの相談メモ</p><h2 id="daily-articles-heading">頼む前に知っておきたいこと</h2></div>
-                <article class="notice-card"><p><time datetime="2026-11-10">2026年11月10日</time> / 譲り受けた家具</p><h2><a href="./articles/2026-11-10-secondhand-furniture-notes/">譲ってもらった家具を組み立てたいとき。今ある物と分からないことの相談メモ</a></h2><p>譲り受けた棚や机の組立を相談する前に、現在の状態、説明書や部品の有無、前の持ち主に確認できたことを整理。完成写真と手元の状態を分けて伝えます。</p><a class="btn btn-secondary" href="./articles/2026-11-10-secondhand-furniture-notes/">記事を読む</a></article>
-                <p><a class="btn btn-secondary" href="./articles/">相談メモの一覧を見る</a></p>
-            </div>
-        </section>
-        <section class="section cases" id="cases">
-            <div class="container">
-                <div class="section-heading fade-in-up">
-                    <p class="section-kicker">作業事例</p>
-                    <h2>よくある相談の目安です。</h2>
-                    <p>写真は事例イメージです。実際の作業は状態を確認してから、対応可否と金額をお伝えします。</p>
-                    <p><a class="btn btn-secondary" href="./works/">工事・作業実績を見る</a></p>
-                </div>
-                <div class="case-grid">
-                    <article class="case-card fade-in-up">
-                        <img class="image-focus-top" src="./images/ad_lightbulb_square.png" alt="電球交換の事例イメージ">
-                        <div>
-                            <span>事例イメージ</span>
-                            <h3>電球交換</h3>
-                            <p>所要時間15分／目安3,000円〜</p>
-                        </div>
-                    </article>
-                    <article class="case-card fade-in-up">
-                        <img src="./images/ad_water_leak_wide.png" alt="蛇口の水漏れ確認の事例イメージ">
-                        <div>
-                            <span>事例イメージ</span>
-                            <h3>蛇口の水漏れ確認</h3>
-                            <p>所要時間30分／目安3,000円〜＋部品代</p>
-                        </div>
-                    </article>
-                    <article class="case-card fade-in-up">
-                        <img src="./images/lightbulb_support.png" alt="家具組立や住まい相談の事例イメージ">
-                        <div>
-                            <span>掲載予定</span>
-                            <h3>家具組立</h3>
-                            <p>所要時間60分／目安5,000円〜</p>
-                        </div>
-                    </article>
-                    <article class="case-card fade-in-up">
-                        <img src="./images/ad_listening_square.png" alt="賃貸退去前の相談の事例イメージ">
-                        <div>
-                            <span>事例イメージ</span>
-                            <h3>賃貸退去前の相談</h3>
-                            <p>30分／目安3,000円〜</p>
-                        </div>
-                    </article>
-                    <article class="case-card fade-in-up">
-                        <img src="./images/real-estate-purchase-consultation.png" alt="不動産購入前に間取り図を見ながら初歩相談をしている事例イメージ">
-                        <div>
-                            <span>掲載予定</span>
-                            <h3>不動産購入前の初歩相談</h3>
-                            <p>30分／目安3,000円〜</p>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <section class="section flow" id="flow">
-            <div class="container">
-                <div class="section-heading fade-in-up">
-                    <p class="section-kicker">相談から作業まで</p>
-                    <h2>最初の一言を送りやすい流れにしています。</h2>
-                </div>
-                <ol class="flow-list">
-                    <li class="fade-in-up"><span>1</span><strong>LINEまたは電話で相談</strong><p>「これ頼んでいい？」だけでも大丈夫です。</p></li>
-                    <li class="fade-in-up"><span>2</span><strong>写真や状況を確認</strong><p>スマホ写真、困っている場所、賃貸か持ち家かを確認します。</p></li>
-                    <li class="fade-in-up"><span>3</span><strong>概算料金と対応可否を案内</strong><p>対応できない内容は、無理に受けず正直に伝えます。</p></li>
-                    <li class="fade-in-up"><span>4</span><strong>日程調整</strong><p>火曜・水曜を中心に、伺える範囲で調整します。</p></li>
-                    <li class="fade-in-up"><span>5</span><strong>作業前に金額確認してから対応</strong><p>勝手な追加作業はしません。</p></li>
-                </ol>
-            </div>
-        </section>
-
-        <section class="section assurance" id="qualifications">
-            <div class="container assurance-grid">
-                <div class="assurance-copy fade-in-left">
-                    <p class="section-kicker">安心材料</p>
-                    <h2>家に上がる仕事だから、身元と責任範囲を明確にします。</h2>
-                    <p>優しく話しやすいだけでなく、対応できること・できないことをはっきり伝えます。無理な営業や勝手な追加作業はしません。</p>
-                    <ul class="assurance-points">
-                        <li>地域密着で、市川市・行徳・妙典周辺を中心に対応</li>
-                        <li>対応できない作業は正直に伝える</li>
-                        <li>必要な場合は専門業者への相談を案内</li>
-                    </ul>
-                </div>
-                <div class="qualification-panel fade-in-right">
-                    <h3>保有資格</h3>
-                    <div class="qualification-list">
-                        <span>第二種電気工事士</span>
-                        <span>宅地建物取引士</span>
-                        <span>2級ファイナンシャル・プランニング技能士</span>
-                        <span>給水装置工事主任技術者</span>
-                        <span>第二種管工事施工管理技士</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <section class="section area" id="area">
             <div class="container area-card fade-in-up">
                 <div>
@@ -463,20 +399,6 @@
                     <span>行徳</span>
                     <span>妙典</span>
                     <span>周辺地域も相談可</span>
-                </div>
-            </div>
-        </section>
-
-        <section class="section mid-cta">
-            <div class="container cta-panel fade-in-up">
-                <div>
-                    <p class="section-kicker">迷ったらここから</p>
-                    <h2>「これ頼んでいい？」を聞いてみてください。</h2>
-                    <p>写真1枚でも、文章だけでも大丈夫です。対応できる内容か、専門業者へ頼むべきかを整理します。</p>
-                </div>
-                <div class="cta-row">
-                    <a class="btn btn-line" href="https://line.me/ti/p/Q3Eu_nWxu_" target="_blank" rel="noopener noreferrer">これ頼んでいい？を聞いてみる</a>
-                    <a class="btn btn-phone" href="tel:09048278442">電話で相談する（スマホ向け）</a>
                 </div>
             </div>
         </section>
@@ -528,10 +450,34 @@
         </section>
     </main>
 
+    <nav class="b-bottom-bar" aria-label="相談の連絡先">
+        <a class="b-bar-line" href="https://line.me/ti/p/Q3Eu_nWxu_" target="_blank" rel="noopener noreferrer">LINEで相談</a>
+        <a class="b-bar-tel" href="tel:09048278442">電話する</a>
+    </nav>
+
     <footer class="footer">
+        <div class="container b-footer-grid">
+            <div class="b-footer-brand">
+                <a class="logo" href="./"><span class="logo-mark">滝</span><span>滝沢の御用聞き</span></a>
+                <p>市川市 行徳・妙典周辺の住まいの相談。LINE写真相談は0円です。</p>
+                <p><a href="tel:09048278442">電話 090-4827-8442</a></p>
+            </div>
+            <nav class="b-footer-nav" aria-label="フッターメニュー">
+                <a href="./price/">料金目安</a>
+                <a href="./works/">工事実績</a>
+                <a href="./articles/">住まいの相談メモ</a>
+                <a href="./#qualifications">保有資格</a>
+                <a href="./#faq">よくある質問</a>
+            </nav>
+            <div class="b-footer-sns">
+                <p>発信しています</p>
+                <a href="https://x.com/nwostar191756" target="_blank" rel="noopener noreferrer">X @nwostar191756</a>
+                <a href="https://note.com/mute_daphne5659" target="_blank" rel="noopener noreferrer">note</a>
+            </div>
+        </div>
         <div class="container footer-inner">
             <p>&copy; <span id="year"></span> 滝沢の御用聞き</p>
-            <a href="#home">ページ上部へ</a>
+            <a href="#header">ページ上部へ</a>
         </div>
     </footer>
 
