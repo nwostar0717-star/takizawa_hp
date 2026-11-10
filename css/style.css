@@ -2211,3 +2211,7 @@ h1, h2, h3,
 @media (max-width: 760px) {
   .chat-widget { display: none; }
 }
+@media (max-width: 760px) {
+  body { padding-bottom: 0; }
+  .footer { padding-bottom: 96px; }
+}
