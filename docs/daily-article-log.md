@@ -610,3 +610,9 @@
 - URL：https://nwostar0717-star.github.io/takizawa_hp/articles/2026-11-11-exhaust-fan-replacement/
 - 根拠：本人申告「故障内容はスイッチを入れてもプロペラが動かない」、交換前写真1枚（クリーニング後に撮影、本人説明）。長辺1600pxに縮小・EXIFなしで images/works/exhaust-fan/before.jpg に配置。
 - 変更：記事に交換前の見出し・写真・相談内容を追加、description類とdateModifiedを更新、サービスページ（gyotoku-benriya）へのリンク追加。実績一覧の説明文とsitemapのlastmodを更新。
+
+## 2026-11-12 ユーザー追加依頼：台所排水ホース交換
+- タイトル：水漏れしていた台所の排水ホースを交換しました
+- URL：https://nwostar0717-star.github.io/takizawa_hp/articles/2026-11-12-kitchen-drain-hose-replacement/
+- 根拠：本人申告「台所排水ホース交換」と交換後写真3枚。担当範囲「仕入れから交換まで本人」、交換理由「水漏れ」、掲載許可「取得済み」は本人回答。場所の種類・費用・工事日・地域・品番・作業時間は未確認のため記載しない。写真に写る部品の銘柄も記載しない。
+- 更新：記事一覧・トップの記事案内・実績一覧・sitemap-pages.xml。サービスリンクは水漏れ（myoden-water）。
