@@ -605,3 +605,8 @@
 - URL：https://nwostar0717-star.github.io/takizawa_hp/articles/2026-11-11-exhaust-fan-replacement/
 - 根拠：本人申告「施工事例 換気扇交換」と写真2枚（交換後・停止中／交換後・運転中）。担当範囲は本人回答で「仕入れから交換まで本人」、交換理由は本人回答で「動かなくなった」、写真の掲載許可は本人回答で取得済み。場所の種類・費用・工事日・地域・品番・作業時間は未確認のため記載しない。交換前の写真は後日受領予定。
 - 公開結果：別記録のコミットを参照。定期自動記事とは別の追加依頼（当日の日次記事は通常どおり作成する）。
+
+## 2026-11-12 ユーザー追加依頼：換気扇交換の記事に交換前写真を追記
+- URL：https://nwostar0717-star.github.io/takizawa_hp/articles/2026-11-11-exhaust-fan-replacement/
+- 根拠：本人申告「故障内容はスイッチを入れてもプロペラが動かない」、交換前写真1枚（クリーニング後に撮影、本人説明）。長辺1600pxに縮小・EXIFなしで images/works/exhaust-fan/before.jpg に配置。
+- 変更：記事に交換前の見出し・写真・相談内容を追加、description類とdateModifiedを更新、サービスページ（gyotoku-benriya）へのリンク追加。実績一覧の説明文とsitemapのlastmodを更新。

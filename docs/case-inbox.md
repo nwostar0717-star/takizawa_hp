@@ -18,3 +18,4 @@
 ## 公開済み
 
 - 2026-11-11 換気扇交換 → https://nwostar0717-star.github.io/takizawa_hp/articles/2026-11-11-exhaust-fan-replacement/
+  - 2026-11-12 追記：交換前の写真（クリーニング後に撮影）と相談内容「スイッチを入れても羽根が動かない」を追加
