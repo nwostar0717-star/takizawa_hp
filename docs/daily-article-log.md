@@ -616,3 +616,11 @@
 - URL：https://nwostar0717-star.github.io/takizawa_hp/articles/2026-11-12-kitchen-drain-hose-replacement/
 - 根拠：本人申告「台所排水ホース交換」と交換後写真3枚。担当範囲「仕入れから交換まで本人」、交換理由「水漏れ」、掲載許可「取得済み」は本人回答。場所の種類・費用・工事日・地域・品番・作業時間は未確認のため記載しない。写真に写る部品の銘柄も記載しない。
 - 更新：記事一覧・トップの記事案内・実績一覧・sitemap-pages.xml。サービスリンクは水漏れ（myoden-water）。
+
+## 2026-11-20 ユーザー追加依頼：便座交換
+- タイトル：割れていたトイレの便座を交換しました
+- URL：https://nwostar0717-star.github.io/takizawa_hp/articles/2026-11-20-toilet-seat-replacement/
+- 根拠：本人申告「便座交換の工事事例」と写真2枚（交換前・交換後）。担当範囲「仕入れから交換まで本人」、交換理由「割れ・破損」、掲載許可「取得済み（2枚とも）」は本人回答。場所の種類・費用・工事日・地域・品番・作業時間は未確認のため記載しない。写真に写る製品の銘柄も記載しない。
+- 画像：長辺1600px以下・EXIFなしで images/works/toilet-seat/before.jpg, after.jpg に配置。
+- 更新：記事一覧・トップの記事案内・実績一覧・sitemap-pages.xml。サービスリンクはその他（gyotoku-benriya）。
+- 公開状況：PCでコミット済み。このセッションではGitHubへのpush権限がなく未push（11/12分の2コミットも未push）。
