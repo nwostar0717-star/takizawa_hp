@@ -20,5 +20,5 @@
 - 2026-11-11 換気扇交換 → https://nwostar0717-star.github.io/takizawa_hp/articles/2026-11-11-exhaust-fan-replacement/
   - 2026-11-12 追記：交換前の写真（クリーニング後に撮影）と相談内容「スイッチを入れても羽根が動かない」を追加
 - 2026-11-12 台所排水ホース交換（担当：仕入れから交換まで本人／交換理由：水漏れ／写真3枚・掲載許可：取得済み） → 公開済み：2026-11-12 https://nwostar0717-star.github.io/takizawa_hp/articles/2026-11-12-kitchen-drain-hose-replacement/
-- 2026-11-20 便座交換（担当：仕入れから交換まで本人／交換理由：割れ・破損／写真2枚（交換前・交換後）・掲載許可：取得済み） → 公開済み：2026-11-20 https://nwostar0717-star.github.io/takizawa_hp/articles/2026-11-20-toilet-seat-replacement/（GitHubへのpush待ち）
-- 2026-11-20 台所水栓交換（既存のキッチン水栓実績とは別の現場／担当：仕入れから交換まで本人／交換理由：使いにくい・不具合／写真5枚すべて交換後・掲載許可：取得済み） → 公開済み：2026-11-20 https://nwostar0717-star.github.io/takizawa_hp/articles/2026-11-20-kitchen-faucet-replacement/（GitHubへのpush待ち）
+- 2026-11-20 便座交換（担当：仕入れから交換まで本人／交換理由：割れ・破損／写真2枚（交換前・交換後）・掲載許可：取得済み） → 公開済み：2026-11-20 https://nwostar0717-star.github.io/takizawa_hp/articles/2026-11-20-toilet-seat-replacement/
+- 2026-11-20 台所水栓交換（既存のキッチン水栓実績とは別の現場／担当：仕入れから交換まで本人／交換理由：使いにくい・不具合／写真5枚すべて交換後・掲載許可：取得済み） → 公開済み：2026-11-20 https://nwostar0717-star.github.io/takizawa_hp/articles/2026-11-20-kitchen-faucet-replacement/
