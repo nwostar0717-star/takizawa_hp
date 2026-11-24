@@ -632,3 +632,10 @@
 - 画像：長辺1600px以下・EXIFなしで images/works/kitchen-faucet-2/ に5枚配置。
 - 更新：記事一覧・トップの記事案内・実績一覧・sitemap-pages.xml。サービスリンクは水栓（gyotoku-faucet）。
 - 公開状況：PCでコミット済み・未push。
+
+## 2026-11-24 ユーザー追加依頼：台所オーバーフローパイプ交換
+- タイトル：水漏れしていた台所のオーバーフローパイプを交換しました
+- URL：https://nwostar0717-star.github.io/takizawa_hp/articles/2026-11-24-kitchen-overflow-pipe-replacement/
+- 根拠：本人申告「台所排水オーバーフロウパイプを交換」と写真3枚（交換前のシンク下・交換後のシンク下・シンク側のオーバーフローの表面）。担当範囲「仕入れから交換まで本人」、交換理由「水漏れ」、掲載許可「取得済み（3枚とも）」は本人回答。場所の種類・費用・工事日・地域・品番・作業時間は記載しない。
+- 画像：長辺1600px以下・EXIFなしで images/works/kitchen-overflow-pipe/ に3枚配置（交換前の写真は元画像が小さいため261px）。
+- 更新：記事一覧・トップの記事案内・実績一覧・sitemap-pages.xml。サービスリンクは水漏れ（myoden-water）。
